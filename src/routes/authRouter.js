@@ -58,6 +58,16 @@ authRouter.post("/login", async (req,res)=>{
    
 })
 
+authRouter.post("/logout",async (req,res)=>{
+    try{
+        res.clearCookie("token")
+        .send("logout successfully");
+    }
+    catch(err){
+        res.status(400).send("something went wrong: "+ err.message)
+    }
+})
+
     
 
 module.exports = authRouter;
