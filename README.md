@@ -15,6 +15,7 @@ Currently focused on backend development, with frontend and real-time chat featu
 
 📜 View other users’ profiles
 
+
 🛠 Planned Features
 
 🎨 Frontend UI (React.js) for seamless user experience
